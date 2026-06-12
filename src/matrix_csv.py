@@ -23,7 +23,7 @@ for narrative_id, narrative_embeddings in embeddings.items():
 
     df = pd.DataFrame(matrix, index=fields, columns=fields)
 
-    output_path = f"data/similarity_matrix_{narrative_id}.csv"
+    output_path = f"data/results/similarity_matrix_{narrative_id}.csv"
     df.to_csv(output_path)
 
     print(f"Saved {output_path}")
