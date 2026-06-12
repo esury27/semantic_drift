@@ -1,0 +1,9 @@
+numpy
+matplotlib
+sentence_transformers
+ipykernel
+notebook
+scikit-learn
+openai
+python-dotenv
+pandas
