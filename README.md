@@ -196,43 +196,6 @@ Output:
 data/pca_plot.png
 ```
 
----
-
-## Preliminary Results
-
-Using a passage from *The Passion According to G.H.* by Clarice Lispector:
-
-| Comparison | Similarity |
-|------------|------------|
-| Original ↔ Summary 300 | 0.6740 |
-| Original ↔ Summary 100 | 0.6486 |
-| Original ↔ Summary 25 | 0.5594 |
-| Original ↔ Sentence | 0.6630 |
-| Original ↔ Seed | 0.6174 |
-| Original ↔ Regenerated | 0.6151 |
-
-### Observations
-
-- Compression generally reduces semantic similarity.
-- Narrative seeds preserve abstraction more than content.
-- Regeneration does not reconstruct the original narrative.
-- Regeneration remains close to the seed representation.
-- Seeds may function more like latent schemas than compressed copies.
-
----
-
-## PCA Interpretation
-
-Current visualization suggests:
-
-- The original narrative is separated from compressed representations.
-- Sentence, seed, and regenerated narrative form a cluster.
-- Regeneration remains near the seed rather than returning toward the original.
-
-This suggests that narrative compression may preserve a generative structure rather than a faithful representation of experience.
-
----
-
 ## Future Work
 
 ### Dataset Expansion
